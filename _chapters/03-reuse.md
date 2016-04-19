@@ -49,9 +49,9 @@ You can see this just isn't going to work. You now need some crazy class names s
 
 Alternatively, take the following semantic mark-up that doesn't attempt to reuse styles:
 
-	<div class="someModule">
-	  <div class="someModule-someComponent"></div>
-	  <div class="someModule-someOtherComponent"></div>
+	<div class="module>
+	  <div class="module__some--component"></div>
+	  <div class="module__some--othercomponent"></div>
 	</div>
 
 Ensuring this is styled as specified above, is now a simple task with 6 CSS declarations needed in total, 3 of which reside within media queries.
@@ -79,8 +79,8 @@ For example let's say you wanted a bunch of different modules or components to h
 	/* colours.css */
 
 	/* red text */
-	.someSelector,
-	.someOtherSelector {
+	.some__selector,
+	.some__otherselector {
 		colour: red;
 	}
 
