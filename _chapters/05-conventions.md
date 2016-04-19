@@ -2,7 +2,7 @@
 layout: chapter
 title: Conventions
 section: Core
-permalink: /chapters/conventions/
+permalink: {{site.baseurl}}chapters/conventions/
 description: Learn the simple conventions that MaintainableCSS employs to write modules, components and state.
 ---
 

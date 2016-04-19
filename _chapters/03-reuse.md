@@ -2,7 +2,7 @@
 layout: chapter
 title: Reuse
 section: Background
-permalink: /chapters/reuse/
+permalink: {{site.baseurl}}chapters/reuse/
 description: Learn why avoiding reuse and embracing repetition makes CSS maintenance easier.
 ---
 
