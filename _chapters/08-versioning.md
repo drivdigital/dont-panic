@@ -2,7 +2,7 @@
 layout: chapter
 title: Versioning
 section: Extras
-permalink: dont-panic/chapters/versioning/
+permalink: chapters/versioning/
 description: Learn how MaintainableCSS makes it really easy to upgrade and AB test modules for rapidly evolving websites.
 ---
 

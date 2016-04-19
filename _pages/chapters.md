@@ -1,7 +1,7 @@
 ---
 layout: chapters
 id: chapters
-permalink: dont-panic/chapters/
+permalink: chapters/
 title: "Chapters"
 ---
 
