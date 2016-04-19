@@ -1,10 +1,10 @@
 <div class="chapter__navigation {% if include.last %}chapter__navigation--last {% endif %}">
 	<div class="chapter__navigation--inner">
 		{% if page.previous %}
-			<a class="chapter__navigation--previous" href="{{page.previous.url}}">&larr; <span class="chapter__navigation--label">Previous:</span> {{page.previous.title}}</a>
+			<a class="chapter__navigation--previous" href="{{ site.baseurl }}{{page.previous.url}}">&larr; <span class="chapter__navigation--label">Previous:</span> {{page.previous.title}}</a>
 		{% endif %}
 		{% if page.next %}
-			<a class="chapter__navigation--next" href="{{page.next.url}}"><span class="chapter__navigation--label">Next:</span> {{page.next.title}} &rarr;</a>
+			<a class="chapter__navigation--next" href="{{ site.baseurl }}{{page.next.url}}"><span class="chapter__navigation--label">Next:</span> {{page.next.title}} &rarr;</a>
 		{% endif %}
 	</div>
 </div>

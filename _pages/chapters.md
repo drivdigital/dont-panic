@@ -12,7 +12,7 @@ title: "Chapters"
 <ol>
 	{% for chapter in site.chapters %}
 		{% if chapter.section == 'Preface' %}
-			<li><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
+			<li><a href="{{ site.baseurl }}{{ chapter.url }}">{{ chapter.title }}</a></li>
 		{% endif %}
 	{% endfor %}
 </ol>
@@ -22,7 +22,7 @@ title: "Chapters"
 <ol start="2">
 	{% for chapter in site.chapters %}
 		{% if chapter.section == 'Background' %}
-			<li><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
+			<li><a href="{{ site.baseurl }}{{ chapter.url }}">{{ chapter.title }}</a></li>
 		{% endif %}
 	{% endfor %}
 </ol>
@@ -32,7 +32,7 @@ title: "Chapters"
 <ol start="5">
 	{% for chapter in site.chapters %}
 		{% if chapter.section == 'Core' %}
-			<li><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
+			<li><a href="{{ site.baseurl }}{{ chapter.url }}">{{ chapter.title }}</a></li>
 		{% endif %}
 	{% endfor %}
 </ol>
@@ -42,7 +42,7 @@ title: "Chapters"
 <ol start="8">
 	{% for chapter in site.chapters %}
 		{% if chapter.section == 'Extras' %}
-			<li><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
+			<li><a href="{{ site.baseurl }}{{ chapter.url }}">{{ chapter.title }}</a></li>
 		{% endif %}
 	{% endfor %}
 </ol>

@@ -1,4 +1,4 @@
 <div class="navigation">
-	<a class="{% if page.id == "home" %}navigation-isActive{% endif%}" href="/">Home</a>
-	<a class="{% if page.id == "chapters" %}navigation-isActive{% endif%}" href="/chapters/">Chapters</a>
+	<a class="{% if page.id == "home" %}navigation-isActive{% endif%}" href="{{ site.baseurl }}">Home</a>
+	<a class="{% if page.id == "chapters" %}navigation-isActive{% endif%}" href="{{ site.baseurl }}/chapters/">Chapters</a>
 </div>

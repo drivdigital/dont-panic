@@ -6,7 +6,7 @@
 				<li>
 					<a
 						class="{% if chapter.title == page.title %}chapters-isCurrentPage{% endif%}"
-						href="{{ chapter.url }}">
+						href="{{ site.baseurl }}{{ chapter.url }}">
 							{{ chapter.title }}
 					</a>
 				</li>
