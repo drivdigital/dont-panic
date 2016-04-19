@@ -2,8 +2,8 @@
 title: Driv Digital Semantics
 email: andrew@drivdigital.no
 description: Semantic rules for creating maintainable CSS
-baseurl: "/dont-panic/"
-url: "drivdigital.github.io"
+baseurl: ""
+url: "drivdigital.github.io/dont-panic/"
 permalink: /:year/:month/:title/
 twitter_username: drivdigital
 github_username:  drivdigital
