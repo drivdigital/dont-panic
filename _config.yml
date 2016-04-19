@@ -1,0 +1,19 @@
+# Site settings
+title: Driv Digital Semantics
+email: andrew@drivdigital.no
+description: Semantic rules for creating maintainable CSS
+baseurl: ""
+url: ""
+permalink: /:year/:month/:title/
+twitter_username: drivdigital
+github_username:  drivdigital
+timezone: Europe/Oslo
+include: ['_pages']
+exclude: ['node_modules']
+markdown: kramdown
+collections:
+  chapters:
+    output: true
+    permalink: /:collection/:title/
+gems:
+  - jekyll-sitemap
