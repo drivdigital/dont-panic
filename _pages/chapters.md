@@ -1,7 +1,7 @@
 ---
 layout: chapters
 id: chapters
-permalink: {{site.baseurl}}chapters/
+permalink: chapters/
 title: "Chapters"
 ---
 
